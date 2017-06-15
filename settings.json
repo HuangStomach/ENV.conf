@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/.expandrive": true
+  },
+  "workbench.editor.showTabs": false,
+  "files.associations": {
+    "*.vue": "weex"
+  },
+  "vsicons.associations.files": [
+    {
+      "icon": "vue", 
+      "extensions": ["vue"], 
+      "format": "svg" 
+    }
+  ],
+  "window.zoomLevel": 0,
+  "workbench.welcome.enabled": false,
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "vscode-icons",
+  "typescript.check.npmIsInstalled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "One Dark Pro"
+}
