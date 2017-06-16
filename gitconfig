@@ -1,0 +1,7 @@
+[user]
+    name = huangStoamch
+    email = nxmbest@qq.com
+[core]
+    editor = vim
+[push]
+    default = matching

@@ -14,3 +14,7 @@ My vagrantfiles, just record it
 
 Not exist yet, I dont have much ask for vim
 Maybe sometimes this file will appear
+
+### gitconfig
+
+Because I cannot exit nano
