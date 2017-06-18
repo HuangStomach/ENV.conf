@@ -5,3 +5,9 @@
     editor = vim
 [push]
     default = matching
+[http]
+    proxy = socks5://10.0.2.3:1080
+[https]
+    proxy = socks5://10.0.2.3:1080
+[core]
+    gitProxy = socks5://10.0.2.3:1080
