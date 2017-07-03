@@ -1,11 +1,13 @@
 // Place your settings in this file to overwrite the default settings
 {
+  // 排除我不想看到也不想编辑的文件
   "files.exclude": {
     "**/.git": true,
     "**/.DS_Store": true,
     "**/.vscode": true,
     "**/.expandrive": true
   },
+  // vue图标设置
   "files.associations": {
     "*.vue": "weex"
   },
@@ -21,7 +23,7 @@
   "typescript.check.npmIsInstalled": false,
   "vsicons.dontShowNewVersionMessage": true,
   "extensions.ignoreRecommendations": false,
-
+  // 主题的样式配置
   "workbench.editor.showTabs": false,
   "workbench.welcome.enabled": false,
   "workbench.iconTheme": "vscode-icons",
@@ -30,5 +32,14 @@
     "editorGroup.background": "#333333",
     "sideBar.background": "#252526"
   },
-  "workbench.colorTheme": "One Dark Pro"
+  "workbench.colorTheme": "One Dark Pro",
+  // 默认配置替代
+  "[weex]":  {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[javascript]":  {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  }
 }
