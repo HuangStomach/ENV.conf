@@ -1,0 +1,14 @@
+.DS*
+._*
+.swp
+.swo
+*.swo
+*.swp
+.#*
+.*~
+*~
+Thumbnail.db
+.App*
+.vscode
+*.log
+
