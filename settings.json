@@ -25,21 +25,41 @@
   "extensions.ignoreRecommendations": false,
   // 主题的样式配置
   "workbench.editor.showTabs": false,
-  "workbench.welcome.enabled": false,
-  "workbench.iconTheme": "vscode-icons",
   "workbench.colorCustomizations": {
     "editor.background": "#1e1e1e",
     "editorGroup.background": "#333333",
     "sideBar.background": "#252526"
   },
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.iconTheme": "vscode-icons",
   // 默认配置替代
-  "[weex]":  {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2
-  },
   "[javascript]":  {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
-  }
+  },
+  "docker.showExplorer": false,
+  "gitlens.gitExplorer.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "todohighlight.isEnable": true,
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    [
+      "Gold",
+      "LightSkyBlue",
+      "Orchid",
+      "SpringGreen"
+    ],
+    "Red"
+  ],
 }
