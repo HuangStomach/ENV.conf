@@ -35,7 +35,8 @@
   // 默认配置替代
   "[javascript]":  {
     "editor.insertSpaces": true,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.rulers": [80]
   },
   "docker.showExplorer": false,
   "gitlens.gitExplorer.enabled": false,
