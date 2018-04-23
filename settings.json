@@ -37,8 +37,11 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
+  "[javascriptreact]":  {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
   "docker.showExplorer": false,
-  "gitlens.gitExplorer.enabled": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -46,6 +49,8 @@
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": true,
+    "suppressResultsExplorerNotice": true,
+    "suppressShowKeyBindingsNotice": true,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
@@ -55,11 +60,14 @@
     "[]",
     "{}",
     [
+      "SpringGreen",
       "Gold",
       "LightSkyBlue",
       "Orchid",
-      "SpringGreen"
     ],
     "Red"
   ],
+  "gitlens.keymap": "alternate",
+  "gitlens.gitExplorer.enabled": false,
+  "git.enableSmartCommit": true,
 }
