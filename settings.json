@@ -35,7 +35,8 @@
   // 默认配置替代
   "[javascript]":  {
     "editor.insertSpaces": true,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.rulers": [80]
   },
   "[javascriptreact]":  {
     "editor.insertSpaces": true,
@@ -70,4 +71,20 @@
   "gitlens.keymap": "alternate",
   "gitlens.gitExplorer.enabled": false,
   "git.enableSmartCommit": true,
+
+  //php-cs-fixer 详见https://www.cnblogs.com/huangtailang/p/6604124.html
+  //打印日志信息,用于调试
+  "phpformatter.logging":true,
+  //不使用composer方式
+  "phpformatter.composer":false,
+  //添加自定义参数，默认的参数level已经在新版本中移出所以会导致运行出错
+  //RULES=[@PSR1,@PSR2,@Symfony]
+  //source：https://github.com/FriendsOfPHP/PHP-CS-Fixer#usage
+  "phpformatter.arguments":["--rules=@PSR2"],
+  // Should point to php-cs-fixer.phar file, if you have installed this manually (without Composer). Should include .phar extension.
+  // php-cs-fixer.phar路径,使用composer方式时可以不填
+  "phpformatter.pharPath":"/Users/yusheng.wang/.vscode/extensions/junstyle.php-cs-fixer-0.1.80/php-cs-fixer.phar",
+  // If the pharPath is set, and you are not using Composer, and you haven't added PHP to your PATH, this should point to the php.exe file.
+  // php路径,使用composer方式时可以不填
+  // "phpformatter.phpPath":"d:/wamp/bin/php/php5.5.12/php.exe"
 }
