@@ -9,7 +9,7 @@
   },
   // vue图标设置
   "files.associations": {
-    "*.vue": "weex"
+    "*.vue": "vue"
   },
   "vsicons.associations.files": [
     {
@@ -21,16 +21,11 @@
   "window.zoomLevel": 0,
   "editor.wordWrap": "on",
   "typescript.check.npmIsInstalled": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
   "vsicons.dontShowNewVersionMessage": true,
   "extensions.ignoreRecommendations": false,
   // 主题的样式配置
   "workbench.editor.showTabs": false,
-  "workbench.colorCustomizations": {
-    "editor.background": "#1e1e1e",
-    "editorGroup.background": "#333333",
-    "sideBar.background": "#252526"
-  },
-  "workbench.colorTheme": "One Dark Pro Vivid",
   "workbench.iconTheme": "vscode-icons",
   // 默认配置替代
   "[javascript]":  {
@@ -55,19 +50,13 @@
     "suppressWelcomeNotice": true
   },
   "todohighlight.isEnable": true,
-  "bracketPairColorizer.consecutivePairColors": [
-    "()",
-    "[]",
-    "{}",
-    [
-      "SpringGreen",
-      "Gold",
-      "LightSkyBlue",
-      "Orchid",
-    ],
-    "Red"
-  ],
   "gitlens.keymap": "alternate",
   "gitlens.gitExplorer.enabled": false,
   "git.enableSmartCommit": true,
+  "gitlens.historyExplorer.enabled": false,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "One Dark Pro",
 }
