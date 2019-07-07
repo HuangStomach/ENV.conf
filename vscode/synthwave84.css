@@ -29,17 +29,17 @@
 
 .mtk9 {
   color: #f4eee4;
-  text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+  text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
 }
 
-.monaco-editor .margin, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
+.monaco-editor .margin, .monaco-editor .inputarea.ime-input {
   background: transparent;
 }
 
 /* Add the subtle gradient to the editor background */
 .monaco-editor {
   background-color: transparent !important;
-  /*background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);*/
+  background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
   background-size: auto 100vh;
   background-position: top;
   background-repeat: no-repeat;
@@ -66,6 +66,7 @@
   height: 4px;
   background: linear-gradient(to right, #fc28a8, #03edf9) !important;
   opacity: 1;
+  z-index: 6;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit::after {
@@ -77,6 +78,7 @@
   height: 0px;
   transition: opacity 1s;
   opacity: 0;
+  z-index: 6;
 }
 
 /* Active sidebar item */
