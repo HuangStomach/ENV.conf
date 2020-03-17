@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite the default settings
 {
   // 排除我不想看到也不想编辑的文件
   "files.exclude": {
@@ -11,32 +10,33 @@
   "files.associations": {
     "*.vue": "vue"
   },
-  "vsicons.associations.files": [
-    {
-      "icon": "vue", 
-      "extensions": ["vue"], 
-      "format": "svg" 
-    }
-  ],
   "window.zoomLevel": 0,
   "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.suggestSelection": "first",
+  "workbench.iconTheme": "vscode-icons",
   "typescript.check.npmIsInstalled": false,
-  "javascript.implicitProjectConfig.experimentalDecorators": true,
-  "vsicons.dontShowNewVersionMessage": true,
   "extensions.ignoreRecommendations": false,
   // 主题的样式配置
   "workbench.editor.showTabs": false,
-  "workbench.iconTheme": "vscode-icons",
   // 默认配置替代
-  "[javascript]":  {
+  "[php]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
-  "[javascriptreact]":  {
+  "[javascriptreact]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
-  "docker.showExplorer": false,
+  "gitlens.keymap": "alternate",
+  "gitlens.views.repositories.enabled": false,
+  "gitlens.views.fileHistory.enabled": false,
+  "gitlens.views.lineHistory.enabled": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -50,15 +50,13 @@
     "suppressWelcomeNotice": true
   },
   "todohighlight.isEnable": true,
-  "gitlens.keymap": "alternate",
   "git.enableSmartCommit": true,
-  "java.errors.incompleteClasspath.severity": "ignore",
-  "editor.fontSize": 14,
-  "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "One Dark Pro Vivid",
-  "gitlens.views.repositories.enabled": false,
-  "gitlens.views.fileHistory.enabled": false,
-  "gitlens.views.lineHistory.enabled": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
   "java.configuration.checkProjectSettingsExclusions": false,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsicons.dontShowNewVersionMessage": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "workbench.colorTheme": "SynthWave '84"
 }
