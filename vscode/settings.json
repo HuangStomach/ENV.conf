@@ -8,7 +8,8 @@
   },
   // vue图标设置
   "files.associations": {
-    "*.vue": "vue"
+    "*.vue": "vue",
+    "*.json": "json",
   },
   "window.zoomLevel": 0,
   "editor.wordWrap": "on",
@@ -16,6 +17,7 @@
   "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.suggestSelection": "first",
   "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "SynthWave '84",
   "typescript.check.npmIsInstalled": false,
   "extensions.ignoreRecommendations": false,
   // 主题的样式配置
@@ -29,14 +31,15 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "[javascriptreact]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
   "gitlens.keymap": "alternate",
-  "gitlens.views.repositories.enabled": false,
-  "gitlens.views.fileHistory.enabled": false,
-  "gitlens.views.lineHistory.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -44,19 +47,12 @@
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": true,
-    "suppressResultsExplorerNotice": true,
-    "suppressShowKeyBindingsNotice": true,
-    "suppressUpdateNotice": false,
-    "suppressWelcomeNotice": true
   },
   "todohighlight.isEnable": true,
-  "git.enableSmartCommit": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.implicitProjectConfig.experimentalDecorators": true,
   "java.configuration.checkProjectSettingsExclusions": false,
   "java.errors.incompleteClasspath.severity": "ignore",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "vsicons.dontShowNewVersionMessage": true,
-  "gitlens.hovers.currentLine.over": "line",
-  "workbench.colorTheme": "SynthWave '84"
+  "C_Cpp.updateChannel": "Insiders",
+  "C_Cpp.default.cppStandard": "c++20"
 }
